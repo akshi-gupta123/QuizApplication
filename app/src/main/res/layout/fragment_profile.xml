@@ -4,12 +4,16 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/imageview_profile"
+        android:src="@drawable/red_flower"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"/>
+
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Profile Fragment"
-        android:textColor="@color/border"
-        android:textSize="30sp"/>
+        android:layout_height="wrap_content"/>
 
 </RelativeLayout>
